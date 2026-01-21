@@ -32,32 +32,321 @@ nav .menu a{
     text-decoration: none;
 
 }
-
 nav{
-    padding: 16px 120px 16px 120px;
-    width: 1600px 92px;
-    display: flex;
-    max-width: 79%;
+    padding: 16px 120px;
+    max-width: 1600px;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
+    display: flex;
+    
 }
 
-.btn{
+.btn1{
     background-color:#30B868;
     list-style-type: none;
     border: none;
     border-radius: 4px;
     width: 164px;
     height: 44px;
-    
-    
+      
+}
+.btn1:hover{
+    background-color: #000000;
 }
 
-.btn li a{
+.btn1 li a{
     text-decoration: none;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: bold;
     padding: 12px 16px;
     
+}
+#hero{
+    background-image: url(../images/hero-bg.png);
+    max-width: 1600px;
+    max-height: 674PX;
+    padding: 70px 120px 134px 120px;
+}
+
+#hero .hero-content{
+    margin: 0 auto;
+}
+
+#hero .hero-content .early-access{
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: center;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    margin: 0 auto;
+    font-size: 16px;
+    width: 229px;
+    height: 35px;
+    color: #30B868;
+    display: flex;
+    gap: 6px;
+    font-weight: 500px;
+    align-items: center;
+}
+
+.hero-content h1{
+    color: white;
+    font-size: 72px;
+    width: 770px;
+    height: 168px;
+    padding-top:16px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    line-height: 84px;
+}
+.green-text{
+    color: #30B868;
+}
+.hero-content .hero-para{
+    padding-top: 18px;
+    line-height: 24px;
+    justify-content: center;
+    text-align: center;
+    max-width: 1360px;
+    height:60px;
+    align-items: center;
+    color: white;
+    margin: 0 auto;
+}
+
+.hero-content .hero-btn2{
+    display: flex;
+    width: 465px;
+    padding-top: 32px;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    gap: 16px;
+}
+.btn2{
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: medium;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 4px;
+    display: flex;
+}
+
+.btn2:hover{
+    border: #000000;
+    background-color: #FFFFFF;
+    color: darkblue;
+}
+.primary-btn{
+    color: white;
+    background-color: #30B868;
+    font-size: 16px;
+    font-weight: 600px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 12px 16px;
+}
+.primary-btn:hover{
+    background-color: #000000;
+}
+
+#card-container{
+    max-width: 1600px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+#card-container .section-heading{
+    max-width: 1600px;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-container .section-heading h1{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 58px;
+    padding-top: 60px;
+}
+
+#card-container .section-heading p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 16px;
+}
+
+#card-container .card-box{
+    display: flex;
+    padding-top: 44px;
+    margin: 0 120px;
+    gap: 24px;
+}
+
+#card-container .card-box .card{
+    width: 322px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px #00000012;
+    padding:10px 10px;
+    text-align: center;
+    
+}
+#card-container .card-box .card h3{
+    font-size: 24px;
+    font-weight: 600px;
+    padding-top: 16px;
+}
+
+#card-container .card-box .card p{
+    font-size: 16px;
+    padding-top: 16px;
+    padding-bottom: 45.5px;
+    color: #627382;
+}
+#card-container .card-box .card img{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #F95555;
+    padding: 15.5px 15.5px;
+    border-radius: 50%;
+
+}
+
+#card-container .card-box .card .card-img{
+    align-items: center;
+    max-width: 1600px;
+    background-color: F95555;
+    padding-top: 55.5px;
+}
+
+#brain{
+    max-width: 1600px;
+    padding: 120px;
+    margin-top: -60px;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
+
+#brain .brain-box{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin: 0 auto;
+
+}
+
+#brain .brain-box h1{
+    font-size: 48px;
+    padding-top: 16px;
+    color: #001931;
+    padding-bottom: 16px;
+}
+
+#brain .brain-box p{
+    font-size: 16px;
+    color: #627382;
+}
+
+#brain .brain-box .brain-heading .soln{
+    color: #30B868;
+    font-size: 16px;
+}
+
+#brain .brain-points{
+    padding-top: 40px;
+    align-items: center;
+
+}
+
+#brain .brain-points .points{
+    display: flex;
+    padding-bottom: 16px;
+    gap: 6px;
+    align-items: center;
+}
+
+#ready-container{
+    max-width: 1600px;
+}
+
+#ready-container .ready-box{
+    margin: 0px 120px 120px 120px;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    align-items: center;
+    border-radius: 12px;
+
+}
+
+#ready-container .ready-box .ready-heading{
+    text-align: center;
+    padding-bottom: 24px;
+}
+#ready-container .ready-box .ready-heading h1{
+    padding-bottom: 16px;
+    color: #001931;
+}
+#ready-container .ready-box .ready-btn .primary-btn{
+    box-shadow: 0px 10px 20px 0px #00000030;
+}
+
+#ready-container .ready-box .ready-heading p{
+    color: #627382;
+}
+#ready-container .ready-box .ready-btn p{
+    padding-top: 16px;
+    color: #627382;
+}
+
+#ready-container .ready-box .ready-btn{
+    text-align: center;
+}
+#footer-container{
+    max-width: 1600px;
+    color: white;
+    background-color: #001931;
+    padding: 120px 120px 30px 120px ;
+}
+#footer-container .footer-box{
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding-bottom: 80px;
+}
+#footer-container .footer-box .social{
+    width: 220px;
+}
+
+#footer-container .footer-box .social a{
+    margin-right: 10px;
+}
+#footer-container .footer-box .social p{
+    padding-bottom: 16px;
+    font-size: 20px;
+}
+#footer-container hr{
+    opacity: 20%;
+}
+
+#footer-container .copyright{
+    padding-top: 30px;
+    text-align: center;
+}
+
+#footer-container .copyright p{
+    color: #FAFAFA;
+    font-size: 16px;
 }
